@@ -1,0 +1,86 @@
+*{
+  margin:0;
+}
+body{
+  background-color: black;
+  color: white;
+}
+.carousel{
+  width: 100%;
+  border: 5px solid white;
+}
+.carousel img{
+  width: 100%;
+}
+header{
+  color:purple;
+  padding: 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_right{
+  width: 30%;
+}
+.header_right img{
+  width:70%;
+}
+.navbar{
+  list-style-type: none;
+  padding-left: 0;
+
+
+}
+.navbar li{
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid green;
+
+}
+.navbar li a{
+  color:rgba(103, 18, 111, 0.93);
+}
+.section_row{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.example_container{
+  width: 30%;
+  border: 2px solid green;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+.example_text{
+
+}
+.example_container img{
+  width: 100%;
+}
+.footer_left{
+
+}
+footer{
+padding: 10px;
+background-image: url("../assets/dajourpurplewave.jpeg");
+background-position: center center;
+background-size: contain;
+background-repeat: no-repeat;
+background-color: rgb(14, 233, 95);
+margin-top: 20px;
+}
+
+.footer_left ul{
+  list-style-type: none;
+  padding-left: 0;
+
+}
+.footer_left li{
+
+}
+.footer_left a{
+  color: purple;
+
+}
