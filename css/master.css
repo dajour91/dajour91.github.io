@@ -2,16 +2,10 @@
   margin:0;
 }
 body{
-  background-color: black;
-  color: white;
+  background-color: skyblue;
+  color: purple;
 }
-.carousel{
-  width: 100%;
-  border: 5px solid white;
-}
-.carousel img{
-  width: 100%;
-}
+/*  */
 header{
   color:purple;
   padding: 20px;
@@ -62,6 +56,8 @@ header{
 .footer_left{
 
 }
+.navbar{background-color: skyblue;}
+.Main{background-color: skyblue;}
 footer{
 padding: 10px;
 background-image: url("../assets/dajourpurplewave.jpeg");
@@ -70,9 +66,12 @@ background-size: contain;
 background-repeat: no-repeat;
 background-color: rgb(14, 233, 95);
 margin-top: 20px;
+display: flex;
+justify-content: space-between;
+
 }
 
-.footer_left ul{
+.footer_left ul, .footer_right ul{
   list-style-type: none;
   padding-left: 0;
 
@@ -80,7 +79,8 @@ margin-top: 20px;
 .footer_left li{
 
 }
-.footer_left a{
+.footer_left a, .footer_right a{
   color: purple;
 
 }
+.footer_right li{text-align: right;}
