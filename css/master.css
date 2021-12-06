@@ -154,3 +154,11 @@ hr {
   margin-top: auto;
 
 }
+.section_row {  color:purple;
+  padding: 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+
+}
